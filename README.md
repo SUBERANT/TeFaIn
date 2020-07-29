@@ -8,5 +8,6 @@ pkg install git
 pkg install python         
 cd     
 cd TeFaIn     
+chmod +x TeFaIn.py     
 python TeFaIn.py     
 ----------------------------------------------------------------------------------------------------------------------------------------
