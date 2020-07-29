@@ -6,7 +6,6 @@ This is a Python script that allows you to quickly install all the necessary lib
 (Instructions/Инструкции)    
 pkg install git     
 pkg install python         
-cd     
 cd TeFaIn     
 chmod +x TeFaIn.py     
 python TeFaIn.py     
