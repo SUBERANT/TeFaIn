@@ -3,7 +3,7 @@ This is a Python script that allows you to quickly install all the necessary lib
 # TeFaIn [RUS]
 Это скрипт на языке Python, позволяющий быстро установить все необходимые библеотеки и программы для удобной работы в Termux.
 ----------------------------------------------------------------------------------------------------------------------------------------
-(Instructions)     
+(Instructions/Инструкции)    
 pkg install git     
 pkg install python         
 cd     
