@@ -20,6 +20,7 @@ if choose == "y":
     os.system("pkg install git -y")
     os.system("pkg install python -y")
     os.system("pkg install python2 -y")
+    os.system("apt-get install python3-setuptools")
     os.system("pkg install zsh -y")
     os.system("pkg install micro -y")
     os.system("pkg install nmap -y")
@@ -34,7 +35,19 @@ if choose == "y":
     os.system("pkg install unstable-repo -y")
     os.system("pkg install x11-repo -y")
     os.system("pkg install wget -y")
-    os.system("cd")
+    os.system("cd /data/data/com.termux/files/home && git clone https://github.com/maldevel/IPGeoLocation.git")
+    os.system("cd /data/data/com.termux/files/home && cd IPGeoLocation")
+    os.system("chmod +x ipgeolocation.py")
+    os.system("pip install -r requirements.txt")
+    os.system("cd /data/data/com.termux/files/home && git clone https://github.com/wishihab/userrecon.git")
+    os.system("cd /data/data/com.termux/files/home && cd userrecon")
+    os.system("chmod +x userrecon.sh")
+    os.system("cd /data/data/com.termux/files/home && https://github.com/smelhack/infinite-bomber.git")
+    os.system("cd /data/data/com.termux/files/home && cd infinite-bomber/infinite-bomber-reborn/builds/android/Infinite-Bomber-arm/")
+    os.system("chmod +x infinite-bomber")
+    os.system("cd /data/data/com.termux/files/home && cd infinite-bomber/infinite-bomber-reborn/builds/android/Infinite-Bomber-arm-without-tor/")
+    os.system("chmod +x infinite-bomber")
+    os.system("cd /data/data/com.termux/files/home")
     os.system("clear")
     print("=======================================")
     print("        Установка прошла успешно!")
@@ -43,11 +56,13 @@ if choose == "y":
     input()
     os.system("clear")
 if choose == "n":
+    os.system("clear")
     print("=======================================")
     print("Нажмите ENTER чтобы выйти из программы.")
     print("=======================================")
     input()
     os.system("clear")
+    
 
     
 
