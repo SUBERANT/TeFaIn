@@ -18,7 +18,7 @@ if choose == "y":
     os.system("pkg install bash-completion -y")
     os.system("pkg install ifconfig -y")
     os.system("pkg install git -y")
-    os.system("pkg install vim -y")
+    os.system("pkg install nano -y")
     os.system("pkg install python -y")
     os.system("pkg install python2 -y")
     os.system("apt-get install python3-setuptools")
