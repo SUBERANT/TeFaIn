@@ -2,11 +2,13 @@
 #userrecon, Author is @thelinuxchoice.
 #infinite-bomber, is smelhack.
 #IPGeoLocation, is maldevel.
+#No-BlackMail, Author is @DataSC3.
 #This script only for Termux.
 #TeFaIn(Termux Fast Install)
 import os
 
 #Commands
+print("Автор этого скрипта: SUBERANT")
 choose = input("Начать установку? (y/n): ")
 if choose == "y":
     os.system("apt update -y")
@@ -31,6 +33,8 @@ if choose == "y":
     os.system("pip install termcolor")
     os.system("pip install colorama")
     os.system("pip install requests")
+    os.system("pip install bs4")
+    os.system("pip3 install bs4")
     os.system("pip2 install requests")
     os.system("pkg install root-repo -y")
     os.system("pkg install unstable-repo -y")
@@ -49,6 +53,7 @@ if choose == "y":
     os.system("cd /data/data/com.termux/files/home && cd /data/data/com.termux/files/home/infinite-bomber/infinite-bomber-reborn/builds/android/Infinite-Bomber-arm-without-tor/")
     os.system("chmod +x infinite-bomber")
     os.system("cd /data/data/com.termux/files/home")
+    os.system("cd /data/data/com.termux/files/home && git clone https://github.com/DataSC3/No-BlackM")
     os.system("clear")
     print("=======================================")
     print("        Установка прошла успешно!")
