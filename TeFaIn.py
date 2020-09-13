@@ -2,7 +2,7 @@
 #userrecon, Author is @thelinuxchoice.
 #infinite-bomber, is smelhack.
 #IPGeoLocation, is maldevel.
-#No-BlackMail, Author is @DataSC3.
+#No-BlackMail, Author is DataSC3.
 #This script only for Termux.
 #TeFaIn(Termux Fast Install)
 import os
